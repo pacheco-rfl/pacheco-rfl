@@ -1,83 +1,95 @@
 # 👨‍💻 Rafael Pacheco
 
-**`Desenvolvedor Front-End`**
+**`Desenvolvedor Back-End | Estudante de ADS`**
 
-Me chamo Rafael Pacheco Fernandes de Morais tenho 18 anos e sou natural de São Paulo - SP, sou apaixonado por tecnologia e resolução de problemas. Estou cursando o 3º ano do Ensino Médio e concluí o curso de Desenvolvimento Web no Instituto da Oportunidade Social (IOS). Atualmente, pretendo cursar Análise e Desenvolvimento de Sistemas. 
+Me chamo Rafael Pacheco Fernandes de Morais, tenho 18 anos e sou de São Paulo - SP.
+
+Atualmente curso **Análise e Desenvolvimento de Sistemas (ADS)** no IFSP e estou em constante evolução na área de desenvolvimento de software, com foco em **Back-End**, automação de processos e desenvolvimento de APIs.
+
+Concluí o curso de Desenvolvimento Web pelo Instituto da Oportunidade Social (IOS) e venho ampliando meus conhecimentos através de projetos práticos e estudos contínuos.
+
+Atualmente estou realizando o curso **Spring Boot Expert: JPA, REST, JWT, OAuth2 com Docker e AWS**, aprofundando conhecimentos em:
+
+- Java
+- Spring Boot
+- APIs RESTful
+- JPA / Hibernate
+- Spring Security
+- JWT Authentication
+- OAuth2
+- PostgreSQL
+- Docker
+- AWS
+- Postman
+- Arquitetura de Software
+- Desenvolvimento de aplicações escaláveis
+
+Além disso, desenvolvo soluções de automação utilizando Python e Selenium para otimizar processos repetitivos e aumentar a produtividade.
 
 ---
+
+### 🚀 Projeto em Destaque
+
+#### JARVIS - Automação de Processos (RPA)
+
+Projeto desenvolvido para automatizar tarefas operacionais realizadas em sistemas corporativos, reduzindo tempo de execução e minimizando erros manuais.
+
+**Tecnologias utilizadas:**
+
+* Python
+* Selenium
+* OCR (Tesseract)
+* WebDriver Manager
+* Git/GitHub
+
+**Funcionalidades:**
+
+* Login automatizado em sistemas web
+* Resolução automática de CAPTCHA
+* Coleta e processamento de dados
+* Automação de agendamentos
+* Integração entre múltiplos sistemas
+
+---
+
 ### 🤖 Linguagens e Tecnologias
 
-<img 
-    align="left" 
-    alt="HTML"
-    title="HTML" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="CSS" 
-    title="CSS"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="JavaScript" 
-    title="JavaScript"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
-/>
+💻 Front-End
 
-<img 
-    align="left" 
-    alt="Python" 
-    title="Python"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
-/>
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap
+* Tailwind CSS
 
-<img 
-    align="left" 
-    alt="Tailwind" 
-    title="Tailwind"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" 
-/>
+⚙️ Back-End
 
-<img 
-    align="left" 
-    alt="Bootstrap"
-    title="Bootstrap" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" 
-/>
+* Java
+* Spring Boot
+* Python
 
-<img 
-    align="left" 
-    alt="Git" 
-    title="Git"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" 
-/>
+🗄️ Banco de Dados
 
-<br/>
-<br/>
+* PostgreSQL
+* MySQL
 
-### 📊 Estatísticas
+🛠️ Ferramentas
 
-<img 
-      align="left" 
-      alt="GitHub Stats" 
-      height="200" 
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=pacheco-rfl&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
-  />
+* Git
+* GitHub
+* Docker
+* Postman
 
-</p>
+---
+
+### 🎯 Objetivo
+
+Busco desenvolver soluções que gerem impacto real, aplicando boas práticas de desenvolvimento, automação e arquitetura de software, enquanto evoluo profissionalmente na área de tecnologia.
+
+---
+
+### 📫 Contato
+
+* GitHub: https://github.com/pacheco-rfl
+* LinkedIn: (adicione seu perfil)
+* E-mail: (adicione seu e-mail)
