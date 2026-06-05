@@ -104,5 +104,5 @@ My goal is to develop solutions that create real impact by applying software eng
 ##  Contact
 
 * GitHub: https://github.com/pacheco-rfl
-* LinkedIn: https://linkedin.com/in/your-profile
-* Email: [your-email@example.com](mailto:your-email@example.com)
+* LinkedIn: https://linkedin.com/in/rafael-pacheco-morais
+* Email: [rafaelpacheco1324@yahoo.com](mailto:rafaelpacheco1324@yahoo.com)
