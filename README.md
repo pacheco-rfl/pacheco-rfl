@@ -92,7 +92,7 @@ Projeto desenvolvido para automatizar tarefas operacionais realizadas em sistema
 
 ##  Objetivo
 
-Busco desenvolver soluções que gerem impacto real, aplicando boas práticas de desenvolvimento, automação e arquitetura de software, enquanto evoluo profissionalmente na área de tecnologia.
+Busco desenvolver soluções que gerem impacto real, escaláveis, aplicando boas práticas de desenvolvimento, automação e arquitetura de software, enquanto evoluo profissionalmente na área de tecnologia.
 
 ---
 
