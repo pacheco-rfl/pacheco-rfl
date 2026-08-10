@@ -2,7 +2,7 @@
 
 **`Back-End Developer | Systems Analysis and Development Student`**
 
-My name is Rafael Pacheco Fernandes de Morais, I am 18 years old and I live in São Paulo, Brazil.
+My name is Rafael Pacheco Fernandes de Morais, I am 19 years old and I live in São Paulo, Brazil.
 
 I am currently pursuing a degree in **Systems Analysis and Development (ADS)** at IFSP and continuously improving my skills in software development, with a strong focus on **Back-End Development**, process automation, and API development.
 
