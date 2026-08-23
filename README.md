@@ -1,36 +1,39 @@
 # 👨‍💻 Rafael Pacheco
 
-### Back-End Developer | Java & Spring Boot | Systems Analysis and Development Student
+### Desenvolvedor Back-End | Java & Spring Boot | Estudante de Análise e Desenvolvimento de Sistemas
 
-I'm a software development student from **São Paulo, Brazil**, currently pursuing a degree in **Systems Analysis and Development (ADS) at IFSP**.
+Sou estudante de desenvolvimento de software em **São Paulo, Brasil**, atualmente cursando **Análise e Desenvolvimento de Sistemas (ADS) no IFSP**.
 
-My main focus is **Back-End Development with Java and Spring Boot**, with experience building REST APIs, relational database integrations, authentication and authorization mechanisms, process automation, and Full Stack applications.
+Meu principal foco é **Desenvolvimento Back-End com Java, Spring Boot e IA**, com experiência prática na construção de APIs REST, integração com bancos de dados relacionais, autenticação e autorização, automação de processos e desenvolvimento de aplicações Full Stack.
 
-I also completed a **Web Development course at Instituto da Oportunidade Social (IOS)** and continue improving my skills through practical projects, independent study, and hands-on software development.
+Também concluí um curso de **Desenvolvimento Web no Instituto da Oportunidade Social (IOS)** e continuo aprimorando meus conhecimentos através de projetos práticos, estudos independentes e desenvolvimento contínuo.
 
-Currently, I'm deepening my knowledge in:
+Atualmente, estou aprofundando meus conhecimentos em:
 
-- Java and Spring Boot;
-- REST API design;
+- Java e Spring Boot;
+- APIs REST;
 - Spring Security;
-- JWT and OAuth2;
-- JPA and Hibernate;
+- JWT e OAuth2;
+- JPA e Hibernate;
 - PostgreSQL;
 - Docker;
-- automated testing;
+- testes automatizados;
 - CI/CD;
-- software architecture;
-- cloud technologies and AWS.
+- arquitetura de software;
+- integração entre sistemas;
+- tecnologias em nuvem e AWS.
 
 ---
 
-# 🚀 Featured Project
+# 🚀 Projeto em Destaque
 
 ## Centraliza
 
-**Full Stack platform for centralized operational process management.**
+**Plataforma Full Stack para gestão centralizada de processos operacionais.**
 
-Centraliza is a complete software ecosystem composed of three independent applications:
+O **Centraliza** é um ecossistema completo desenvolvido para centralizar diferentes fluxos operacionais em uma única plataforma, reunindo frontend, backend, banco de dados, segurança, documentos e automação.
+
+O projeto é dividido em três aplicações independentes:
 
 ```text
                     Centraliza Web
@@ -47,50 +50,56 @@ Centraliza is a complete software ecosystem composed of three independent applic
            PostgreSQL        ProcessBuilder
                                   │
                                   ▼
-                         Python Automation
-                              Selenium
+                       Centraliza Automation
+                         Python + Selenium
+                                  │
+                                  ▼
+                         Ambiente Web Demo
 ```
 
-The project combines **frontend, backend, database, security, document processing and browser automation** in a single integrated solution.
+### Principais funcionalidades
 
-### Main Features
+- autenticação com JWT;
+- controle de acesso baseado em cargos e permissões;
+- RBAC com permissões específicas;
+- gerenciamento de usuários;
+- gerenciamento de cargos;
+- dashboard operacional;
+- gerenciamento de Call Backs;
+- acompanhamento de Lembretes;
+- Remanejamentos de agendas;
+- busca integrada de pacientes;
+- histórico de tentativas de contato;
+- auditoria e rastreabilidade;
+- processamento de documentos;
+- visualização de arquivos PDF;
+- proteção de credenciais da automação;
+- integração Java ↔ Python;
+- automação de navegador com Selenium;
+- acompanhamento de execução em tempo real;
+- possibilidade de interromper uma automação;
+- persistência com PostgreSQL;
+- migrations com Flyway;
+- documentação com OpenAPI / Swagger;
+- testes automatizados;
+- cobertura com JaCoCo;
+- pipelines independentes com GitHub Actions.
 
-- JWT authentication;
-- Role-Based Access Control (RBAC);
-- users, roles and fine-grained permissions;
-- operational dashboard;
-- Call Back management;
-- appointment reminders;
-- appointment rescheduling;
-- integrated patient search;
-- PDF document processing and visualization;
-- audit history and traceability;
-- protected automation credentials;
-- Java ↔ Python integration;
-- Selenium browser automation;
-- real-time automation progress tracking;
-- PostgreSQL persistence;
-- Flyway database migrations;
-- automated backend tests;
-- JaCoCo code coverage;
-- GitHub Actions CI pipelines;
-- OpenAPI / Swagger documentation.
-
-### Architecture
+### Arquitetura
 
 ```text
-User
- │
- ▼
+Usuário
+  │
+  ▼
 React + TypeScript
- │
- │ REST / JSON + JWT
- ▼
+  │
+  │ REST / JSON + JWT
+  ▼
 Spring Boot API
- │
- ├──────────────► PostgreSQL
- │
- └── ProcessBuilder
+  │
+  ├──────────────► PostgreSQL
+  │
+  └── ProcessBuilder
           │
           ▼
         Python
@@ -99,30 +108,30 @@ Spring Boot API
        Selenium
           │
           ▼
-   Demo Web Environment
+   Ambiente Web Demo
 ```
 
-### Repositories
+### Repositórios
 
-🔹 **Project Overview**  
+🔹 **Visão Geral do Projeto**  
 https://github.com/pacheco-rfl/centraliza
 
-🔹 **Back-End API**  
+🔹 **API Back-End**  
 https://github.com/pacheco-rfl/centraliza-portfolio-api
 
 🔹 **Front-End**  
 https://github.com/pacheco-rfl/centraliza-portfolio-web
 
-🔹 **Automation Module**  
+🔹 **Módulo de Automação**  
 https://github.com/pacheco-rfl/centraliza-portfolio-automation
 
-> The public portfolio version uses only fictitious patients, professionals, documents, credentials and external environments.
+> A versão pública do projeto utiliza exclusivamente pacientes, profissionais, unidades, documentos, credenciais e ambientes fictícios para fins de demonstração.
 
 ---
 
-# 🛠️ Tech Stack
+# 🛠️ Tecnologias
 
-## Back-End
+## ⚙️ Back-End
 
 <p align="left">
   <img alt="Java" width="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
@@ -132,11 +141,11 @@ https://github.com/pacheco-rfl/centraliza-portfolio-automation
   <img alt="Python" width="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
 </p>
 
-`Java` · `Spring Boot` · `Spring Security` · `REST APIs` · `JWT` · `JPA` · `Hibernate` · `Maven`
+`Java` · `Spring Boot` · `Spring Security` · `APIs REST` · `JWT` · `JPA` · `Hibernate` · `Maven`
 
 ---
 
-## Front-End
+## 🌐 Front-End
 
 <p align="left">
   <img alt="React" width="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
@@ -154,7 +163,7 @@ https://github.com/pacheco-rfl/centraliza-portfolio-automation
 
 ---
 
-## Databases
+## 🗄️ Bancos de Dados
 
 <p align="left">
   <img alt="PostgreSQL" width="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
@@ -166,7 +175,7 @@ https://github.com/pacheco-rfl/centraliza-portfolio-automation
 
 ---
 
-## Automation
+## 🤖 Automação
 
 <p align="left">
   <img alt="Python" width="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
@@ -174,11 +183,11 @@ https://github.com/pacheco-rfl/centraliza-portfolio-automation
   <img alt="Selenium" width="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" />
 </p>
 
-`Python` · `Selenium` · `WebDriver` · `Browser Automation` · `Java/Python Integration`
+`Python` · `Selenium` · `WebDriver` · `Automação de Navegador` · `Integração Java/Python`
 
 ---
 
-## Tools & DevOps
+## 🔧 Ferramentas & DevOps
 
 <p align="left">
   <img alt="Git" width="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
@@ -188,56 +197,67 @@ https://github.com/pacheco-rfl/centraliza-portfolio-automation
   <img alt="Docker" width="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
   &nbsp;
   <img alt="Postman" width="45px" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" />
+  &nbsp;
+  <img alt="AWS" width="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
 </p>
 
-`Git` · `GitHub` · `GitHub Actions` · `Docker` · `Postman` · `OpenAPI / Swagger` · `CI/CD`
+`Git` · `GitHub` · `GitHub Actions` · `Docker` · `Postman` · `OpenAPI / Swagger` · `CI/CD` · `AWS`
 
 ---
 
-# 🔐 Back-End & Security
+# 🔐 Back-End & Segurança
 
-Some of the Back-End concepts I have been applying in my projects include:
+Nos meus projetos, venho aplicando conceitos relacionados à construção de APIs seguras e organizadas.
 
-- RESTful API design;
-- JWT authentication;
+Entre eles:
+
+- desenvolvimento de APIs REST;
+- autenticação com JWT;
 - Spring Security;
-- Role-Based Access Control;
-- fine-grained permissions;
-- protected endpoints;
-- global exception handling;
-- request validation;
-- password hashing;
-- encrypted sensitive information;
-- database migrations;
-- auditing and traceability.
+- controle de acesso baseado em cargos;
+- permissões específicas;
+- proteção de endpoints;
+- validação de requisições;
+- tratamento global de exceções;
+- hash de senhas;
+- criptografia de informações sensíveis;
+- migrations de banco de dados;
+- auditoria;
+- rastreabilidade de operações.
 
-In Centraliza, authorization is controlled not only by user roles, but also by specific permissions assigned to each role.
+No Centraliza, a autorização não depende apenas do cargo do usuário.
 
-Example:
+Cada cargo possui permissões específicas que determinam quais operações podem ser realizadas.
+
+Exemplo:
 
 ```text
-Administrator
-├── Manage users
-├── Manage roles
-├── Configure automation
-├── Manage Call Backs
-├── Manage reminders
-└── Manage rescheduling
+Administrador
+├── Gerenciar usuários
+├── Gerenciar cargos
+├── Gerenciar permissões
+├── Configurar automação
+├── Gerenciar Call Backs
+├── Gerenciar Lembretes
+└── Gerenciar Remanejamentos
 
-Operator
-├── View Call Backs
-├── Register contacts
-├── View reminders
-└── Register reminder contacts
+Atendente
+├── Visualizar Call Backs
+├── Registrar contatos
+├── Visualizar Lembretes
+├── Registrar contatos em Lembretes
+└── Registrar contatos em Remanejamentos
 ```
+
+A interface utiliza essas permissões para controlar a experiência do usuário, enquanto a autorização definitiva é realizada pela API.
 
 ---
 
-# 🤖 Automation & System Integration
+# 🤖 Automação & Integração de Sistemas
 
-I also have experience integrating applications developed with different technologies.
+Também tenho experiência prática com integração entre aplicações desenvolvidas em tecnologias diferentes.
 
-In Centraliza, the Java Back-End starts a Python automation process using:
+No Centraliza, a API Java inicia um processo Python responsável pela automação.
 
 ```text
 Spring Boot
@@ -248,150 +268,283 @@ Python Runner
      │
      ▼
 Selenium
+     │
+     ▼
+Ambiente Web Demo
 ```
 
-The Python process reports execution progress back to the Java application through structured `stdout` messages.
+O processo Python envia informações de progresso de volta para a aplicação Java através de mensagens estruturadas na saída padrão (`stdout`).
 
-Example:
+Exemplo:
 
 ```text
 [CENTRALIZA_PROGRESS]
 ```
 
-This allows the frontend to display:
+O backend interpreta essas mensagens e disponibiliza o andamento para o frontend.
 
-- current execution status;
-- processed records;
-- successful operations;
-- failed operations;
-- skipped records;
-- current item;
-- execution progress;
-- start and finish timestamps.
+Isso permite acompanhar:
+
+- status atual da execução;
+- quantidade de registros processados;
+- operações realizadas com sucesso;
+- falhas;
+- registros ignorados;
+- item atualmente processado;
+- percentual de progresso;
+- horário de início;
+- horário de finalização;
+- código de saída da automação.
 
 ---
 
-# 🧪 Testing & Code Quality
+# 🧪 Testes & Qualidade de Código
 
-I use automated validation to improve reliability and maintainability.
+Busco utilizar validações automatizadas para melhorar a confiabilidade e a manutenção das aplicações.
 
-In the Centraliza Back-End, the project includes:
+No Back-End do Centraliza, o projeto utiliza:
 
-- automated tests;
+- testes automatizados;
 - Maven Verify;
 - JaCoCo;
-- PostgreSQL integration during CI;
-- Flyway migration validation.
+- PostgreSQL durante a integração contínua;
+- validação das migrations com Flyway.
 
-The projects also use independent GitHub Actions workflows:
+Os três módulos possuem pipelines independentes no GitHub Actions.
 
 ```text
 Frontend
 npm ci
    ↓
 npm run build
+   ↓
+Build validado
+
 
 Backend
 PostgreSQL
    ↓
 Maven Verify
    ↓
-Automated Tests
+Testes Automatizados
    ↓
 JaCoCo
+   ↓
+Build validado
 
-Automation
+
+Automação
 pip install
    ↓
-Python compile validation
+Instalação das dependências
+   ↓
+Validação dos módulos Python
+   ↓
+Código validado
 ```
 
 ---
 
-# 🧠 Currently Studying
+# 🏗️ Arquitetura & Engenharia
 
-I'm currently expanding my Back-End knowledge through the course:
+Alguns conceitos de engenharia de software aplicados nos meus projetos incluem:
 
-**Spring Boot Expert: JPA, REST, JWT, OAuth2 with Docker and AWS**
+- separação de responsabilidades;
+- arquitetura em camadas;
+- frontend e backend desacoplados;
+- API REST como ponto central da aplicação;
+- controle de acesso;
+- migrations de banco;
+- versionamento com Git;
+- integração contínua;
+- comunicação entre processos;
+- tratamento centralizado de erros;
+- auditoria;
+- documentação de API;
+- configuração através de variáveis de ambiente.
 
-My current study focus includes:
+No Centraliza, frontend, backend e automação possuem repositórios independentes e responsabilidades específicas.
 
-- advanced Spring Boot;
-- REST API best practices;
+```text
+Centraliza
+│
+├── Web
+│   └── Interface e experiência do usuário
+│
+├── API
+│   └── Segurança, regras de negócio e persistência
+│
+└── Automation
+    └── Automação de navegador e processamento
+```
+
+---
+
+# 📚 Atualmente Estudando
+
+Atualmente estou aprofundando meus conhecimentos em Back-End através do curso:
+
+### Spring Boot Expert: JPA, REST, JWT, OAuth2 com Docker e AWS
+
+Meu foco atual de estudos inclui:
+
+- Spring Boot avançado;
+- boas práticas para APIs REST;
 - Spring Security;
+- JWT;
 - OAuth2;
-- authentication and authorization;
-- JPA and Hibernate;
+- autenticação e autorização;
+- JPA;
+- Hibernate;
+- PostgreSQL;
 - Docker;
 - AWS;
-- cloud deployment;
-- automated testing;
-- application architecture;
-- scalable Back-End applications.
+- deploy em nuvem;
+- testes automatizados;
+- arquitetura de aplicações;
+- aplicações Back-End escaláveis.
 
 ---
 
-# 🎓 Education
+# 🎓 Formação
 
-### Systems Analysis and Development — IFSP
+## Análise e Desenvolvimento de Sistemas — IFSP
 
-Currently pursuing a degree in **Systems Analysis and Development (ADS)**.
+Atualmente cursando **Análise e Desenvolvimento de Sistemas (ADS)**.
 
-Main areas of interest:
+Áreas de maior interesse:
 
-- software development;
-- databases;
-- system architecture;
-- Back-End development;
-- software engineering.
-
-### Web Development — Instituto da Oportunidade Social (IOS)
-
-Completed a Web Development course covering fundamentals of web application development.
+- desenvolvimento de software;
+- desenvolvimento Back-End;
+- bancos de dados;
+- APIs;
+- arquitetura de sistemas;
+- engenharia de software.
 
 ---
 
-# 💡 Areas of Interest
+## Desenvolvimento Web — Instituto da Oportunidade Social (IOS)
 
-I'm especially interested in working with:
+Curso concluído com foco nos fundamentos do desenvolvimento de aplicações web.
+
+Durante o curso, tive contato com conceitos relacionados a:
+
+- HTML;
+- CSS;
+- JavaScript;
+- desenvolvimento de interfaces;
+- lógica de programação;
+- desenvolvimento web.
+
+---
+
+# 💡 Áreas de Interesse
+
+Tenho interesse especial em trabalhar com:
 
 ```text
 Java
 Spring Boot
-REST APIs
+APIs REST
 PostgreSQL
-Software Architecture
 Spring Security
-System Integration
-Process Automation
+Arquitetura de Software
+Integração de Sistemas
+Automação de Processos
 Docker
-Cloud Technologies
+CI/CD
+Cloud
+AWS
 ```
 
 ---
 
-# 🎯 Career Objective
+# 🎯 Objetivo Profissional
 
-My goal is to grow as a **Back-End Developer**, building reliable, maintainable and scalable applications while applying software engineering best practices.
+Meu objetivo é crescer profissionalmente como **Desenvolvedor Back-End**, construindo aplicações confiáveis, organizadas, seguras e escaláveis, aplicando boas práticas de engenharia de software.
 
-I am particularly interested in opportunities where I can work with:
+Tenho especial interesse em oportunidades envolvendo:
 
-- Java and Spring Boot;
-- API development;
-- relational databases;
-- software architecture;
-- authentication and security;
-- system integrations;
-- process automation;
-- cloud technologies.
+- Java e Spring Boot;
+- desenvolvimento de APIs;
+- bancos de dados relacionais;
+- arquitetura de software;
+- autenticação e segurança;
+- integração entre sistemas;
+- automação de processos;
+- Docker;
+- CI/CD;
+- tecnologias em nuvem.
 
-I also enjoy understanding the complete application lifecycle, which is why I develop projects involving frontend, backend, databases and automation even though my main professional focus is Back-End development.
+Apesar do meu foco profissional estar em Back-End, gosto de compreender o ciclo completo de uma aplicação.
+
+Por isso, desenvolvo projetos que envolvem:
+
+```text
+Frontend
+   +
+Backend
+   +
+Banco de Dados
+   +
+Segurança
+   +
+Automação
+   +
+DevOps
+```
 
 ---
 
-# 📫 Contact
+# 📌 Projetos
 
-📍 **São Paulo, Brazil**
+## 🚀 Centraliza
+
+Plataforma Full Stack com Java, Spring Boot, React, PostgreSQL, Python e Selenium.
+
+🔗 https://github.com/pacheco-rfl/centraliza
+
+---
+
+### ⚙️ Centraliza API
+
+API REST responsável pelas regras de negócio, autenticação, autorização, persistência, auditoria e integração com automação.
+
+**Tecnologias:**
+
+`Java` · `Spring Boot` · `Spring Security` · `PostgreSQL` · `Flyway` · `JWT` · `JPA` · `Hibernate`
+
+🔗 https://github.com/pacheco-rfl/centraliza-portfolio-api
+
+---
+
+### 🌐 Centraliza Web
+
+Frontend responsável pela interface, dashboards, gerenciamento dos processos e acompanhamento da automação.
+
+**Tecnologias:**
+
+`React` · `TypeScript` · `Vite` · `React Router`
+
+🔗 https://github.com/pacheco-rfl/centraliza-portfolio-web
+
+---
+
+### 🤖 Centraliza Automation
+
+Módulo responsável pela execução da automação de navegador e integração com a API.
+
+**Tecnologias:**
+
+`Python` · `Selenium` · `WebDriver`
+
+🔗 https://github.com/pacheco-rfl/centraliza-portfolio-automation
+
+---
+
+# 📫 Contato
+
+📍 **São Paulo, Brasil**
 
 💻 **GitHub**  
 https://github.com/pacheco-rfl
@@ -399,11 +552,11 @@ https://github.com/pacheco-rfl
 💼 **LinkedIn**  
 https://linkedin.com/in/rafael-pacheco-morais
 
-📧 **Email**  
+📧 **E-mail**  
 rafaelpacheco1324@yahoo.com
 
 ---
 
 <p align="center">
-  <b>Always learning, building and improving.</b>
+  <b>Sempre aprendendo, construindo e evoluindo.</b>
 </p>
