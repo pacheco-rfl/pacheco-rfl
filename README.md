@@ -197,7 +197,3 @@ rafaelpacheco1324@yahoo.com
 https://github.com/pacheco-rfl
 
 ---
-
-<p align="center">
-  <b>Sempre aprendendo, construindo e evoluindo.</b>
-</p>
